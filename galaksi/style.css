@@ -1,0 +1,45 @@
+.top_menu {
+  background-color: #4b6587;
+  border-radius: 5px;
+}
+
+h1 {
+  color: #e8d0b3;
+  text-shadow: cadetblue;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 1px #242424;
+}
+
+table,
+th,
+td {
+  border: 0px solid black;
+  border-spacing: 2cm 3em;
+  text-align: center;
+}
+
+.table_div {
+  display: flex;
+  justify-content: center;
+}
+
+td > button > a {
+  font-size: 33px !important;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:visited,
+a:link {
+  color: black;
+}
+
+td > button {
+  background-color: #fff8e5;
+  border-radius: 5px;
+  border: 3px solid #ffbb00;
+}
+
+td > button:hover {
+  background-color: #ffe398;
+}
