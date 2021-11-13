@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Google</title>
+  </head>
+  <body>
+    <div class="menu">
+      <div class="menu_boxes">
+        <button class="top_menu_buttons">About</button>
+        <button class="top_menu_buttons">Store</button>
+      </div>
+      <div class="menu_boxes menu_reverse">
+        <button id="signin_button" class="top_menu_buttons">Sign in</button>
+        <button class="top_menu_buttons">
+          <img src="images/dots-menu.png" alt="" />
+        </button>
+        <button class="top_menu_buttons">Gmail</button>
+        <button class="top_menu_buttons">Images</button>
+      </div>
+    </div>
+    <div id="google_logo">
+      <img src="images/logo.png" alt="" />
+    </div>
+    <div class="flexible_menu">
+      <div style="display: flex; flex-direction: row">
+        <img
+          src="images/search.png"
+          alt=""
+          style="width: 25px; height: 25px; margin-right: 10px"
+        />
+        <input type="text" style="width: 450px; height: 25px" />
+        <img
+          src="images/voicelogo.png"
+          alt=""
+          style="width: 25px; height: 25px; margin-left: 10px"
+        />
+      </div>
+    </div>
+    <div class="flexible_menu">
+      <div style="padding-right: 8px">
+        <button class="search_buttons">Google Search</button>
+      </div>
+      <div style="padding-left: 8px">
+        <button class="search_buttons">I'm Feeling Lucky</button>
+      </div>
+    </div>
+    <div id="bot_menu">
+      <div class="menu_boxes">
+        <button class="bottom_buttons">Advertising</button>
+        <button class="bottom_buttons">Business</button>
+        <button class="bottom_buttons">How Search works</button>
+      </div>
+      <div class="menu_reverse menu_boxes">
+        <button class="bottom_buttons">Privacy</button>
+        <button class="bottom_buttons">Terms</button>
+        <button class="bottom_buttons">Settings</button>
+      </div>
+    </div>
+  </body>
+</html>
