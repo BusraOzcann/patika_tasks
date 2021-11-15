@@ -1,0 +1,25 @@
+.menu_spc_links {
+  color: rgb(173, 173, 173);
+  font-weight: normal;
+}
+a:hover {
+  text-decoration: none;
+  color: rgb(173, 173, 173);
+}
+
+.price_box {
+  background-color: #ff5c58;
+  width: 70px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  border-radius: 3px;
+}
+
+.price_text {
+  margin-top: 5px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
